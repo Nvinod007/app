@@ -1,0 +1,18 @@
+{
+  "name": "@code-nest/portfolio",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "name": "portfolio"
+  },
+  "dependencies": {
+    "next": "~15.1.4",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.16.9",
+    "@types/react": "18.3.1",
+    "@types/three": "^0.177.0"
+  }
+}

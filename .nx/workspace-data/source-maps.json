@@ -1,0 +1,1232 @@
+{
+  "apps/live-sync-be": {
+    "root": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "projectType": [
+      "apps/live-sync-be/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets": [
+      "apps/live-sync-be/tsconfig.app.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck": [
+      "apps/live-sync-be/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.dependsOn": [
+      "apps/live-sync-be/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.options": [
+      "apps/live-sync-be/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.cache": [
+      "apps/live-sync-be/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.inputs": [
+      "apps/live-sync-be/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.outputs": [
+      "apps/live-sync-be/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.syncGenerators": [
+      "apps/live-sync-be/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata": [
+      "apps/live-sync-be/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.executor": [
+      "apps/live-sync-be/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.options.cwd": [
+      "apps/live-sync-be/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.options.command": [
+      "apps/live-sync-be/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.technologies": [
+      "apps/live-sync-be/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.technologies.0": [
+      "apps/live-sync-be/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.description": [
+      "apps/live-sync-be/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.help": [
+      "apps/live-sync-be/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.help.command": [
+      "apps/live-sync-be/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.help.example": [
+      "apps/live-sync-be/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.lint": [
+      "apps/live-sync-be/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "apps/live-sync-be/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "apps/live-sync-be/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "apps/live-sync-be/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "apps/live-sync-be/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "apps/live-sync-be/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "apps/live-sync-be/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "apps/live-sync-be/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "apps/live-sync-be/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "apps/live-sync-be/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "apps/live-sync-be/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "apps/live-sync-be/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "apps/live-sync-be/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "apps/live-sync-be/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "apps/live-sync-be/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.generate": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.generate.executor": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.generate.options": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.generate.options.commands": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.generate.options.cwd": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.seed": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.seed.executor": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.seed.options": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.seed.dependsOn": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.seed.options.commands": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.seed.options.cwd": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.executor": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.outputs": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.defaultConfiguration": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.configurations": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.platform": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.outputPath": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.format": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.bundle": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.main": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.assets": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.esbuildOptions": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.configurations.development": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.configurations.production": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.configurations.production.esbuildOptions": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.serve": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.serve.executor": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.serve.defaultConfiguration": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.serve.dependsOn": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.serve.options": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.serve.configurations": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.serve.options.buildTarget": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.serve.options.runBuildTargetDependencies": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.serve.configurations.development": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.serve.configurations.development.buildTarget": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.serve.configurations.production": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.serve.configurations.production.buildTarget": [
+      "apps/live-sync-be/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "libs/themes": {
+    "root": [
+      "libs/themes/package.json",
+      "nx/core/package-json"
+    ],
+    "projectType": [
+      "libs/themes/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets": [
+      "libs/themes/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build": [
+      "libs/themes/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build.dependsOn": [
+      "libs/themes/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build.options": [
+      "libs/themes/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build.cache": [
+      "libs/themes/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build.inputs": [
+      "libs/themes/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build.outputs": [
+      "libs/themes/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build.syncGenerators": [
+      "libs/themes/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build.metadata": [
+      "libs/themes/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build.executor": [
+      "libs/themes/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build.options.cwd": [
+      "libs/themes/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build.options.command": [
+      "libs/themes/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build.metadata.technologies": [
+      "libs/themes/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build.metadata.technologies.0": [
+      "libs/themes/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build.metadata.description": [
+      "libs/themes/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build.metadata.help": [
+      "libs/themes/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build.metadata.help.command": [
+      "libs/themes/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build.metadata.help.example": [
+      "libs/themes/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build-deps": [
+      "libs/themes/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build-deps.dependsOn": [
+      "libs/themes/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps": [
+      "libs/themes/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps.dependsOn": [
+      "libs/themes/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps.executor": [
+      "libs/themes/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps.options": [
+      "libs/themes/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps.options.command": [
+      "libs/themes/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.lint": [
+      "libs/themes/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "libs/themes/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "libs/themes/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "libs/themes/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "libs/themes/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "libs/themes/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "libs/themes/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "libs/themes/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "libs/themes/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "libs/themes/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "libs/themes/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "libs/themes/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "libs/themes/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "libs/themes/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "libs/themes/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "libs/themes/package.json",
+      "nx/core/package-json"
+    ],
+    "sourceRoot": [
+      "libs/themes/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "libs/themes/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "libs/themes/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "libs/themes/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "libs/themes/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "libs/themes/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "libs/themes/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "libs/themes/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "libs/themes/package.json",
+      "nx/core/package-json"
+    ]
+  },
+  "libs/types": {
+    "root": [
+      "libs/types/package.json",
+      "nx/core/package-json"
+    ],
+    "projectType": [
+      "libs/types/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets": [
+      "libs/types/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build": [
+      "libs/types/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build.dependsOn": [
+      "libs/types/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build.options": [
+      "libs/types/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build.cache": [
+      "libs/types/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build.inputs": [
+      "libs/types/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build.outputs": [
+      "libs/types/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build.syncGenerators": [
+      "libs/types/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build.metadata": [
+      "libs/types/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build.executor": [
+      "libs/types/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build.options.cwd": [
+      "libs/types/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build.options.command": [
+      "libs/types/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build.metadata.technologies": [
+      "libs/types/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build.metadata.technologies.0": [
+      "libs/types/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build.metadata.description": [
+      "libs/types/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build.metadata.help": [
+      "libs/types/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build.metadata.help.command": [
+      "libs/types/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build.metadata.help.example": [
+      "libs/types/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build-deps": [
+      "libs/types/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.build-deps.dependsOn": [
+      "libs/types/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps": [
+      "libs/types/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps.dependsOn": [
+      "libs/types/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps.executor": [
+      "libs/types/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps.options": [
+      "libs/types/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.watch-deps.options.command": [
+      "libs/types/tsconfig.lib.json",
+      "@nx/js/typescript"
+    ],
+    "targets.lint": [
+      "libs/types/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "libs/types/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "libs/types/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "libs/types/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "libs/types/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "libs/types/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "libs/types/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "libs/types/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "libs/types/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "libs/types/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "libs/types/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "libs/types/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "libs/types/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "libs/types/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "libs/types/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "libs/types/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "libs/types/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "libs/types/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "libs/types/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "libs/types/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "libs/types/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "libs/types/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "libs/types/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "libs/types/package.json",
+      "nx/core/package-json"
+    ]
+  },
+  "apps/live-sync": {
+    "root": [
+      "apps/live-sync/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.options": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.dependsOn": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.cache": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.inputs": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.outputs": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.executor": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.options.cwd": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.options.tty": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.options.command": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev.options": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev.executor": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev.options.cwd": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev.options.command": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.options": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.dependsOn": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.executor": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.options.cwd": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.options.command": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.options": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.dependsOn": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.executor": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.options.cwd": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.options.command": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build-deps": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build-deps.dependsOn": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps.dependsOn": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps.executor": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps.options": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps.options.command": [
+      "apps/live-sync/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.lint": [
+      "apps/live-sync/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "apps/live-sync/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "apps/live-sync/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "apps/live-sync/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "apps/live-sync/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "apps/live-sync/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "apps/live-sync/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "apps/live-sync/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "apps/live-sync/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "apps/live-sync/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "apps/live-sync/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "apps/live-sync/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "apps/live-sync/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "apps/live-sync/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "apps/live-sync/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "apps/live-sync/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "apps/live-sync/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "apps/live-sync/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "apps/live-sync/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "apps/live-sync/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "apps/live-sync/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "apps/live-sync/package.json",
+      "nx/core/package-json"
+    ]
+  },
+  "apps/portfolio": {
+    "root": [
+      "apps/portfolio/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.options": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.dependsOn": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.cache": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.inputs": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.outputs": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.executor": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.options.cwd": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.options.tty": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.options.command": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev.options": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev.executor": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev.options.cwd": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev.options.command": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.options": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.dependsOn": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.executor": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.options.cwd": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.options.command": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.options": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.dependsOn": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.executor": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.options.cwd": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.options.command": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build-deps": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build-deps.dependsOn": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps.dependsOn": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps.executor": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps.options": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps.options.command": [
+      "apps/portfolio/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.lint": [
+      "apps/portfolio/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "apps/portfolio/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "apps/portfolio/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "apps/portfolio/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "apps/portfolio/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "apps/portfolio/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "apps/portfolio/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "apps/portfolio/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "apps/portfolio/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "apps/portfolio/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "apps/portfolio/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "apps/portfolio/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "apps/portfolio/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "apps/portfolio/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "apps/portfolio/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "apps/portfolio/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "apps/portfolio/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "apps/portfolio/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "apps/portfolio/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "apps/portfolio/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "apps/portfolio/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "apps/portfolio/package.json",
+      "nx/core/package-json"
+    ]
+  }
+}

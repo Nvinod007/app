@@ -1,0 +1,676 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.6.2",
+  "pathMappings": {
+    "@code-nest/themes": [
+      "libs/themes/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/js/typescript",
+      "options": {
+        "typecheck": {
+          "targetName": "typecheck"
+        },
+        "build": {
+          "targetName": "build",
+          "configName": "tsconfig.lib.json",
+          "buildDepsName": "build-deps",
+          "watchDepsName": "watch-deps"
+        }
+      }
+    },
+    {
+      "name": "@nx/next/plugin",
+      "options": {
+        "startTargetName": "start",
+        "buildTargetName": "build",
+        "devTargetName": "dev",
+        "serveStaticTargetName": "serve-static",
+        "buildDepsTargetName": "build-deps",
+        "watchDepsTargetName": "watch-deps"
+      }
+    },
+    {
+      "name": "@nx/playwright/plugin",
+      "options": {
+        "targetName": "e2e"
+      }
+    },
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    },
+    {
+      "name": "@nx/jest/plugin",
+      "options": {
+        "targetName": "test"
+      }
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".github/CODEOWNERS",
+        "hash": "14011462201373084967"
+      },
+      {
+        "file": ".github/workflows/ci.yml",
+        "hash": "1007293922147910786"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "8639643594791037562"
+      },
+      {
+        "file": ".npmrc",
+        "hash": "5582065787703473450"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "12761248594989516857"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "9168194590040413511"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "4239450515489592636"
+      },
+      {
+        "file": "README.md",
+        "hash": "16488589444110743452"
+      },
+      {
+        "file": "dev.log",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "573678260454068057"
+      },
+      {
+        "file": "install.log",
+        "hash": "3772600422386835947"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "6870352021923392442"
+      },
+      {
+        "file": "jest.preset.ts",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "nx.json",
+        "hash": "126889004920219371"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "3030545850171974013"
+      },
+      {
+        "file": "package.json",
+        "hash": "15388884251033250406"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "2811845925925127796"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "3345049864969309888"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "2137112738516911472"
+      }
+    ],
+    "projectFileMap": {
+      "live-sync": [
+        {
+          "file": "apps/live-sync/.swcrc",
+          "hash": "2742566327615098680"
+        },
+        {
+          "file": "apps/live-sync/eslint.config.mjs",
+          "hash": "14646852152579753225",
+          "deps": [
+            "npm:@eslint/eslintrc",
+            "npm:@eslint/js",
+            "npm:@eslint/compat",
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "apps/live-sync/index.d.ts",
+          "hash": "6089061951863420824",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/live-sync/next-env.d.ts",
+          "hash": "1320675027584673186"
+        },
+        {
+          "file": "apps/live-sync/next.config.js",
+          "hash": "13298620121883591352",
+          "deps": [
+            "npm:@nx/next"
+          ]
+        },
+        {
+          "file": "apps/live-sync/package.json",
+          "hash": "4409618809318015559",
+          "deps": [
+            "npm:next",
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/live-sync/postcss.config.js",
+          "hash": "3070314207240479489"
+        },
+        {
+          "file": "apps/live-sync/public/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/live-sync/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/live-sync/src/app/api/hello/route.ts",
+          "hash": "10928412887030504778"
+        },
+        {
+          "file": "apps/live-sync/src/app/global.css",
+          "hash": "10916250898617451616"
+        },
+        {
+          "file": "apps/live-sync/src/app/layout.tsx",
+          "hash": "669607252572781689"
+        },
+        {
+          "file": "apps/live-sync/src/app/page.tsx",
+          "hash": "7609186312909881833",
+          "deps": [
+            "npm:react",
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/live-sync/tailwind.config.js",
+          "hash": "4134430132278540846",
+          "deps": [
+            "npm:@nx/react",
+            "themes"
+          ]
+        },
+        {
+          "file": "apps/live-sync/tsconfig.json",
+          "hash": "8513827321396073136"
+        }
+      ],
+      "types": [
+        {
+          "file": "libs/types/README.md",
+          "hash": "590437621609819338"
+        },
+        {
+          "file": "libs/types/eslint.config.mjs",
+          "hash": "14634604848122713053",
+          "deps": [
+            [
+              "npm:jsonc-eslint-parser",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "libs/types/package.json",
+          "hash": "2971371235308063591",
+          "deps": [
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "libs/types/src/index.ts",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "libs/types/tsconfig.json",
+          "hash": "1588395960606763721"
+        },
+        {
+          "file": "libs/types/tsconfig.lib.json",
+          "hash": "10155142160034530613"
+        }
+      ],
+      "themes": [
+        {
+          "file": "libs/themes/README.md",
+          "hash": "17253880944004257029"
+        },
+        {
+          "file": "libs/themes/eslint.config.mjs",
+          "hash": "1228135543333780856",
+          "deps": [
+            [
+              "npm:jsonc-eslint-parser",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "libs/themes/package.json",
+          "hash": "2452203204579319425",
+          "deps": [
+            "npm:tslib",
+            "npm:tailwindcss"
+          ]
+        },
+        {
+          "file": "libs/themes/src/index.ts",
+          "hash": "18116315535084182383"
+        },
+        {
+          "file": "libs/themes/src/lib/themes.ts",
+          "hash": "8352724380804634289",
+          "deps": [
+            "npm:tailwindcss"
+          ]
+        },
+        {
+          "file": "libs/themes/tsconfig.json",
+          "hash": "1588395960606763721"
+        },
+        {
+          "file": "libs/themes/tsconfig.lib.json",
+          "hash": "10155142160034530613"
+        }
+      ],
+      "portfolio": [
+        {
+          "file": "apps/portfolio/.swcrc",
+          "hash": "2742566327615098680"
+        },
+        {
+          "file": "apps/portfolio/Readme.md",
+          "hash": "10143737091030807665"
+        },
+        {
+          "file": "apps/portfolio/eslint.config.mjs",
+          "hash": "4151395238650879746",
+          "deps": [
+            "npm:@eslint/eslintrc",
+            "npm:@eslint/js",
+            "npm:@eslint/compat",
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "apps/portfolio/index.d.ts",
+          "hash": "11249421245035480290"
+        },
+        {
+          "file": "apps/portfolio/next-env.d.ts",
+          "hash": "1320675027584673186"
+        },
+        {
+          "file": "apps/portfolio/next.config.js",
+          "hash": "1884198101362433814",
+          "deps": [
+            "npm:@nx/next"
+          ]
+        },
+        {
+          "file": "apps/portfolio/package.json",
+          "hash": "10814265084020365497",
+          "deps": [
+            "npm:@types/node",
+            "npm:@types/react",
+            "npm:@types/three",
+            "npm:next",
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/portfolio/postcss.config.js",
+          "hash": "3070314207240479489"
+        },
+        {
+          "file": "apps/portfolio/public/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/portfolio/public/Planning.md",
+          "hash": "8704509444470785803"
+        },
+        {
+          "file": "apps/portfolio/public/favicon.ico",
+          "hash": "15316861107974832161"
+        },
+        {
+          "file": "apps/portfolio/public/folderStructure.md",
+          "hash": "16826292917981788470"
+        },
+        {
+          "file": "apps/portfolio/src/app/api/hello/route.ts",
+          "hash": "8585951558782403868"
+        },
+        {
+          "file": "apps/portfolio/src/app/global.css",
+          "hash": "16287077881514377404"
+        },
+        {
+          "file": "apps/portfolio/src/app/layout.tsx",
+          "hash": "6929562314927367204"
+        },
+        {
+          "file": "apps/portfolio/src/app/page.tsx",
+          "hash": "16998284179465332652"
+        },
+        {
+          "file": "apps/portfolio/src/config/portfolio-data.ts",
+          "hash": "17459116097588940850"
+        },
+        {
+          "file": "apps/portfolio/src/features/contact/components/Contact.tsx",
+          "hash": "17189936315923092835",
+          "deps": [
+            "npm:framer-motion",
+            "npm:react-intersection-observer"
+          ]
+        },
+        {
+          "file": "apps/portfolio/src/features/contact/components/ContactForm.tsx",
+          "hash": "4283028598631620530",
+          "deps": [
+            "npm:framer-motion",
+            "npm:react",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/portfolio/src/features/contact/components/ContactInfo.tsx",
+          "hash": "13914597197383775327",
+          "deps": [
+            "npm:framer-motion",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/portfolio/src/features/contact/components/SocialLinks.tsx",
+          "hash": "786424907561753967",
+          "deps": [
+            "npm:framer-motion",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/portfolio/src/features/contact/components/index.ts",
+          "hash": "16442663494426008121"
+        },
+        {
+          "file": "apps/portfolio/src/features/experience/components/Experience.tsx",
+          "hash": "10771280918597306065"
+        },
+        {
+          "file": "apps/portfolio/src/features/experience/components/index.ts",
+          "hash": "1184487698877001364"
+        },
+        {
+          "file": "apps/portfolio/src/features/hero/components/Hero.tsx",
+          "hash": "13143480255313839674"
+        },
+        {
+          "file": "apps/portfolio/src/features/hero/components/HeroCTAButtons.tsx",
+          "hash": "12413649064407057741",
+          "deps": [
+            "npm:framer-motion",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/portfolio/src/features/hero/components/HeroContactInfo.tsx",
+          "hash": "9478127033441914053",
+          "deps": [
+            "npm:framer-motion",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/portfolio/src/features/hero/components/HeroSocialLinks.tsx",
+          "hash": "12954582456555224031",
+          "deps": [
+            "npm:framer-motion",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/portfolio/src/features/hero/components/ModernHero.tsx",
+          "hash": "13705041723528107313",
+          "deps": [
+            "npm:framer-motion"
+          ]
+        },
+        {
+          "file": "apps/portfolio/src/features/hero/components/ScrollIndicator.tsx",
+          "hash": "4114976440235055130",
+          "deps": [
+            "npm:framer-motion",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/portfolio/src/features/hero/components/TypingAnimation.tsx",
+          "hash": "7149166837941876791",
+          "deps": [
+            "npm:framer-motion",
+            "npm:react-type-animation"
+          ]
+        },
+        {
+          "file": "apps/portfolio/src/features/hero/components/index.ts",
+          "hash": "15917183813417554962"
+        },
+        {
+          "file": "apps/portfolio/src/features/projects/components/Projects.tsx",
+          "hash": "15640520545423885348",
+          "deps": [
+            "npm:framer-motion",
+            "npm:react-intersection-observer",
+            "npm:lucide-react"
+          ]
+        },
+        {
+          "file": "apps/portfolio/src/features/projects/components/index.ts",
+          "hash": "759588305886380909"
+        },
+        {
+          "file": "apps/portfolio/src/features/scene-3d/components/Scene3D.tsx",
+          "hash": "8393545799520172273",
+          "deps": [
+            "npm:react",
+            "npm:framer-motion",
+            "npm:three"
+          ]
+        },
+        {
+          "file": "apps/portfolio/src/features/scene-3d/components/index.ts",
+          "hash": "18086982562056440264"
+        },
+        {
+          "file": "apps/portfolio/src/features/skills/components/ModernSkills.tsx",
+          "hash": "10583792482062904715",
+          "deps": [
+            "npm:framer-motion",
+            "npm:react-intersection-observer"
+          ]
+        },
+        {
+          "file": "apps/portfolio/src/features/skills/components/SkillBadge.tsx",
+          "hash": "2328436338908277068",
+          "deps": [
+            "npm:framer-motion"
+          ]
+        },
+        {
+          "file": "apps/portfolio/src/features/skills/components/SkillCategory.tsx",
+          "hash": "3424427796950665306",
+          "deps": [
+            "npm:framer-motion"
+          ]
+        },
+        {
+          "file": "apps/portfolio/src/features/skills/components/Skills.tsx",
+          "hash": "13849611273551884913"
+        },
+        {
+          "file": "apps/portfolio/src/features/skills/components/index.ts",
+          "hash": "4238562225851444372"
+        },
+        {
+          "file": "apps/portfolio/src/shared/components/AnimatedBackground.tsx",
+          "hash": "15135373663703012965",
+          "deps": [
+            "npm:framer-motion",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/portfolio/src/shared/components/CodeMatrix.tsx",
+          "hash": "8777271149606672909",
+          "deps": [
+            "npm:framer-motion",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/portfolio/src/shared/components/CursorEffect.tsx",
+          "hash": "1810128068505902758",
+          "deps": [
+            "npm:framer-motion",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/portfolio/src/shared/components/ParticleField.tsx",
+          "hash": "3832990807991885750",
+          "deps": [
+            "npm:framer-motion",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/portfolio/src/shared/components/WaveEffect.tsx",
+          "hash": "2627298630817003442",
+          "deps": [
+            "npm:framer-motion",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/portfolio/src/shared/components/index.ts",
+          "hash": "9506762635533342856"
+        },
+        {
+          "file": "apps/portfolio/src/types/three.d.ts",
+          "hash": "16118354341829521808"
+        },
+        {
+          "file": "apps/portfolio/tailwind.config.js",
+          "hash": "4076491680362923485",
+          "deps": [
+            "npm:@nx/next"
+          ]
+        },
+        {
+          "file": "apps/portfolio/tsconfig.json",
+          "hash": "14075706998862136393"
+        }
+      ],
+      "live-sync-be": [
+        {
+          "file": "apps/live-sync-be/.env.example",
+          "hash": "14015316873605916129"
+        },
+        {
+          "file": "apps/live-sync-be/.gitignore",
+          "hash": "12975187279384539528"
+        },
+        {
+          "file": "apps/live-sync-be/eslint.config.mjs",
+          "hash": "14561204280294506845"
+        },
+        {
+          "file": "apps/live-sync-be/package-lock.json",
+          "hash": "4090490057335233790"
+        },
+        {
+          "file": "apps/live-sync-be/package.json",
+          "hash": "9761123367651006841",
+          "deps": [
+            "npm:ts-node",
+            "npm:@prisma/client",
+            "npm:prisma"
+          ]
+        },
+        {
+          "file": "apps/live-sync-be/src/app/services/user.service.ts",
+          "hash": "17152976050970882217",
+          "deps": [
+            "npm:@prisma/client"
+          ]
+        },
+        {
+          "file": "apps/live-sync-be/src/app/types/user.types.ts",
+          "hash": "16217062461585302828"
+        },
+        {
+          "file": "apps/live-sync-be/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/live-sync-be/src/main.ts",
+          "hash": "10654083024018569145",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "apps/live-sync-be/src/prisma/schema.prisma",
+          "hash": "15978736590930963554"
+        },
+        {
+          "file": "apps/live-sync-be/src/prisma/seed.ts",
+          "hash": "10659175619779497949"
+        },
+        {
+          "file": "apps/live-sync-be/tsconfig.app.json",
+          "hash": "17102504206616546920"
+        },
+        {
+          "file": "apps/live-sync-be/tsconfig.json",
+          "hash": "6240538891403235665"
+        }
+      ]
+    }
+  }
+}

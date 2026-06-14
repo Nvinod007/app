@@ -1,0 +1,22 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/live-sync"
+    },
+    {
+      "path": "./libs/types"
+    },
+    {
+      "path": "./apps/live-sync-be"
+    },
+    {
+      "path": "./apps/portfolio"
+    },
+    {
+      "path": "./libs/themes"
+    }
+  ]
+}
