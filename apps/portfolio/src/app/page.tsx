@@ -1,7 +1,7 @@
-import { EnhancedHero } from "@/features/hero/components/EnhancedHero";
+import { EnhancedHero } from "@/features/hero/components";
 import { ModernSkills } from "@/features/skills/components";
-import { EnhancedExperience } from "@/features/experience/components/EnhancedExperience";
-import { EnhancedProjects } from "@/features/projects/components/EnhancedProjects";
+import { EnhancedExperience } from "@/features/experience/components";
+import { EnhancedProjects } from "@/features/projects/components";
 import { Contact } from "@/features/contact/components";
 import {
   OptimizedBackground,
