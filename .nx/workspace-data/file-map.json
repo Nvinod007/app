@@ -71,7 +71,7 @@
       },
       {
         "file": ".gitignore",
-        "hash": "16507409556684452293"
+        "hash": "14413079366599273592"
       },
       {
         "file": ".npmrc",
@@ -465,41 +465,6 @@
           "hash": "14075706998862136393"
         }
       ],
-      "types": [
-        {
-          "file": "libs/types/README.md",
-          "hash": "590437621609819338"
-        },
-        {
-          "file": "libs/types/eslint.config.mjs",
-          "hash": "14634604848122713053",
-          "deps": [
-            [
-              "npm:jsonc-eslint-parser",
-              "dynamic"
-            ]
-          ]
-        },
-        {
-          "file": "libs/types/package.json",
-          "hash": "2971371235308063591",
-          "deps": [
-            "npm:tslib"
-          ]
-        },
-        {
-          "file": "libs/types/src/index.ts",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "libs/types/tsconfig.json",
-          "hash": "1588395960606763721"
-        },
-        {
-          "file": "libs/types/tsconfig.lib.json",
-          "hash": "10155142160034530613"
-        }
-      ],
       "live-sync-be": [
         {
           "file": "apps/live-sync-be/.env.example",
@@ -563,6 +528,91 @@
         {
           "file": "apps/live-sync-be/tsconfig.json",
           "hash": "6240538891403235665"
+        }
+      ],
+      "frontend": [
+        {
+          "file": "frontend/.env",
+          "hash": "14226148609345098106"
+        },
+        {
+          "file": "frontend/README.md",
+          "hash": "17524295600495787358"
+        },
+        {
+          "file": "frontend/craco.config.js",
+          "hash": "13818922004649374940"
+        },
+        {
+          "file": "frontend/package.json",
+          "hash": "6746547671428809525"
+        },
+        {
+          "file": "frontend/postcss.config.js",
+          "hash": "1579725330904862112"
+        },
+        {
+          "file": "frontend/public/index.html",
+          "hash": "2690559813094882096"
+        },
+        {
+          "file": "frontend/src/App.css",
+          "hash": "13003966367854827278"
+        },
+        {
+          "file": "frontend/src/App.js",
+          "hash": "12520528318072366765"
+        },
+        {
+          "file": "frontend/src/index.css",
+          "hash": "14685566065480124193"
+        },
+        {
+          "file": "frontend/src/index.js",
+          "hash": "1692555474794136965"
+        },
+        {
+          "file": "frontend/tailwind.config.js",
+          "hash": "12636553981810276944"
+        },
+        {
+          "file": "frontend/yarn.lock",
+          "hash": "11035658098607280922"
+        }
+      ],
+      "types": [
+        {
+          "file": "libs/types/README.md",
+          "hash": "590437621609819338"
+        },
+        {
+          "file": "libs/types/eslint.config.mjs",
+          "hash": "14634604848122713053",
+          "deps": [
+            [
+              "npm:jsonc-eslint-parser",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "libs/types/package.json",
+          "hash": "2971371235308063591",
+          "deps": [
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "libs/types/src/index.ts",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "libs/types/tsconfig.json",
+          "hash": "1588395960606763721"
+        },
+        {
+          "file": "libs/types/tsconfig.lib.json",
+          "hash": "10155142160034530613"
         }
       ],
       "themes": [
@@ -689,56 +739,6 @@
         {
           "file": "apps/live-sync/tsconfig.json",
           "hash": "8513827321396073136"
-        }
-      ],
-      "frontend": [
-        {
-          "file": "frontend/.env",
-          "hash": "14226148609345098106"
-        },
-        {
-          "file": "frontend/README.md",
-          "hash": "17524295600495787358"
-        },
-        {
-          "file": "frontend/craco.config.js",
-          "hash": "13818922004649374940"
-        },
-        {
-          "file": "frontend/package.json",
-          "hash": "6746547671428809525"
-        },
-        {
-          "file": "frontend/postcss.config.js",
-          "hash": "1579725330904862112"
-        },
-        {
-          "file": "frontend/public/index.html",
-          "hash": "2690559813094882096"
-        },
-        {
-          "file": "frontend/src/App.css",
-          "hash": "13003966367854827278"
-        },
-        {
-          "file": "frontend/src/App.js",
-          "hash": "12520528318072366765"
-        },
-        {
-          "file": "frontend/src/index.css",
-          "hash": "14685566065480124193"
-        },
-        {
-          "file": "frontend/src/index.js",
-          "hash": "1692555474794136965"
-        },
-        {
-          "file": "frontend/tailwind.config.js",
-          "hash": "12636553981810276944"
-        },
-        {
-          "file": "frontend/yarn.lock",
-          "hash": "11035658098607280922"
         }
       ]
     }
