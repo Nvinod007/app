@@ -1,8 +1,8 @@
 {
   "run": {
-    "command": "nx run portfolio:dev --verbose",
-    "startTime": "2025-06-26T04:35:05.227Z",
-    "endTime": "2025-06-26T04:35:36.323Z",
+    "command": "nx run portfolio:dev",
+    "startTime": "2025-06-26T04:46:43.797Z",
+    "endTime": "2025-06-26T04:47:48.754Z",
     "inner": false
   },
   "tasks": [
@@ -11,8 +11,8 @@
       "target": "dev",
       "projectName": "portfolio",
       "hash": "14786369444755098419",
-      "startTime": "2025-06-26T04:35:05.660Z",
-      "endTime": "2025-06-26T04:35:36.261Z",
+      "startTime": "2025-06-26T04:46:43.852Z",
+      "endTime": "2025-06-26T04:47:48.725Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 1
