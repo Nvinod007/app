@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx run portfolio:dev --verbose",
+    "startTime": "2025-06-26T04:35:05.227Z",
+    "endTime": "2025-06-26T04:35:36.323Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "portfolio:dev",
+      "target": "dev",
+      "projectName": "portfolio",
+      "hash": "14786369444755098419",
+      "startTime": "2025-06-26T04:35:05.660Z",
+      "endTime": "2025-06-26T04:35:36.261Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}
