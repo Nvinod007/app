@@ -58,6 +58,10 @@
         "hash": "5443105041930014821"
       },
       {
+        "file": ".emergent/emergent.yml",
+        "hash": "11611396467870112790"
+      },
+      {
         "file": ".github/CODEOWNERS",
         "hash": "14011462201373084967"
       },
@@ -67,7 +71,7 @@
       },
       {
         "file": ".gitignore",
-        "hash": "8639643594791037562"
+        "hash": "16507409556684452293"
       },
       {
         "file": ".npmrc",
@@ -82,20 +86,24 @@
         "hash": "12761248594989516857"
       },
       {
-        "file": ".vscode/extensions.json",
-        "hash": "9168194590040413511"
-      },
-      {
-        "file": ".vscode/settings.json",
-        "hash": "4239450515489592636"
-      },
-      {
         "file": "README.md",
-        "hash": "16488589444110743452"
+        "hash": "4381602098729120124"
+      },
+      {
+        "file": "backend/.env",
+        "hash": "6472270156853018688"
+      },
+      {
+        "file": "backend/requirements.txt",
+        "hash": "2310085390011966944"
+      },
+      {
+        "file": "backend/server.py",
+        "hash": "523077939669461614"
       },
       {
         "file": "dev.log",
-        "hash": "3244421341483603138"
+        "hash": "12898127756666748880"
       },
       {
         "file": "eslint.config.mjs",
@@ -130,180 +138,31 @@
         "hash": "2811845925925127796"
       },
       {
+        "file": "portfolio-dev.log",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "test_result.md",
+        "hash": "14816779814381000227"
+      },
+      {
+        "file": "tests/__init__.py",
+        "hash": "3244421341483603138"
+      },
+      {
         "file": "tsconfig.base.json",
         "hash": "3345049864969309888"
       },
       {
         "file": "tsconfig.json",
         "hash": "2137112738516911472"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "6403994625853450743"
       }
     ],
     "projectFileMap": {
-      "live-sync": [
-        {
-          "file": "apps/live-sync/.swcrc",
-          "hash": "2742566327615098680"
-        },
-        {
-          "file": "apps/live-sync/eslint.config.mjs",
-          "hash": "14646852152579753225",
-          "deps": [
-            "npm:@eslint/eslintrc",
-            "npm:@eslint/js",
-            "npm:@eslint/compat",
-            "npm:@nx/eslint-plugin"
-          ]
-        },
-        {
-          "file": "apps/live-sync/index.d.ts",
-          "hash": "6089061951863420824",
-          "deps": [
-            "npm:react"
-          ]
-        },
-        {
-          "file": "apps/live-sync/next-env.d.ts",
-          "hash": "1320675027584673186"
-        },
-        {
-          "file": "apps/live-sync/next.config.js",
-          "hash": "13298620121883591352",
-          "deps": [
-            "npm:@nx/next"
-          ]
-        },
-        {
-          "file": "apps/live-sync/package.json",
-          "hash": "4409618809318015559",
-          "deps": [
-            "npm:next",
-            "npm:react",
-            "npm:react-dom"
-          ]
-        },
-        {
-          "file": "apps/live-sync/postcss.config.js",
-          "hash": "3070314207240479489"
-        },
-        {
-          "file": "apps/live-sync/public/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/live-sync/public/favicon.ico",
-          "hash": "9303420814833116677"
-        },
-        {
-          "file": "apps/live-sync/src/app/api/hello/route.ts",
-          "hash": "10928412887030504778"
-        },
-        {
-          "file": "apps/live-sync/src/app/global.css",
-          "hash": "10916250898617451616"
-        },
-        {
-          "file": "apps/live-sync/src/app/layout.tsx",
-          "hash": "669607252572781689"
-        },
-        {
-          "file": "apps/live-sync/src/app/page.tsx",
-          "hash": "7609186312909881833",
-          "deps": [
-            "npm:react",
-            "npm:next"
-          ]
-        },
-        {
-          "file": "apps/live-sync/tailwind.config.js",
-          "hash": "4134430132278540846",
-          "deps": [
-            "npm:@nx/react",
-            "themes"
-          ]
-        },
-        {
-          "file": "apps/live-sync/tsconfig.json",
-          "hash": "8513827321396073136"
-        }
-      ],
-      "types": [
-        {
-          "file": "libs/types/README.md",
-          "hash": "590437621609819338"
-        },
-        {
-          "file": "libs/types/eslint.config.mjs",
-          "hash": "14634604848122713053",
-          "deps": [
-            [
-              "npm:jsonc-eslint-parser",
-              "dynamic"
-            ]
-          ]
-        },
-        {
-          "file": "libs/types/package.json",
-          "hash": "2971371235308063591",
-          "deps": [
-            "npm:tslib"
-          ]
-        },
-        {
-          "file": "libs/types/src/index.ts",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "libs/types/tsconfig.json",
-          "hash": "1588395960606763721"
-        },
-        {
-          "file": "libs/types/tsconfig.lib.json",
-          "hash": "10155142160034530613"
-        }
-      ],
-      "themes": [
-        {
-          "file": "libs/themes/README.md",
-          "hash": "17253880944004257029"
-        },
-        {
-          "file": "libs/themes/eslint.config.mjs",
-          "hash": "1228135543333780856",
-          "deps": [
-            [
-              "npm:jsonc-eslint-parser",
-              "dynamic"
-            ]
-          ]
-        },
-        {
-          "file": "libs/themes/package.json",
-          "hash": "2452203204579319425",
-          "deps": [
-            "npm:tslib",
-            "npm:tailwindcss"
-          ]
-        },
-        {
-          "file": "libs/themes/src/index.ts",
-          "hash": "18116315535084182383"
-        },
-        {
-          "file": "libs/themes/src/lib/themes.ts",
-          "hash": "8352724380804634289",
-          "deps": [
-            "npm:tailwindcss"
-          ]
-        },
-        {
-          "file": "libs/themes/tsconfig.json",
-          "hash": "1588395960606763721"
-        },
-        {
-          "file": "libs/themes/tsconfig.lib.json",
-          "hash": "10155142160034530613"
-        }
-      ],
       "portfolio": [
         {
           "file": "apps/portfolio/.swcrc",
@@ -328,10 +187,6 @@
           "hash": "11249421245035480290"
         },
         {
-          "file": "apps/portfolio/next-env.d.ts",
-          "hash": "1320675027584673186"
-        },
-        {
           "file": "apps/portfolio/next.config.js",
           "hash": "1884198101362433814",
           "deps": [
@@ -349,6 +204,10 @@
             "npm:react",
             "npm:react-dom"
           ]
+        },
+        {
+          "file": "apps/portfolio/portfolio-dev.log",
+          "hash": "16703305468110503849"
         },
         {
           "file": "apps/portfolio/postcss.config.js",
@@ -606,6 +465,41 @@
           "hash": "14075706998862136393"
         }
       ],
+      "types": [
+        {
+          "file": "libs/types/README.md",
+          "hash": "590437621609819338"
+        },
+        {
+          "file": "libs/types/eslint.config.mjs",
+          "hash": "14634604848122713053",
+          "deps": [
+            [
+              "npm:jsonc-eslint-parser",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "libs/types/package.json",
+          "hash": "2971371235308063591",
+          "deps": [
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "libs/types/src/index.ts",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "libs/types/tsconfig.json",
+          "hash": "1588395960606763721"
+        },
+        {
+          "file": "libs/types/tsconfig.lib.json",
+          "hash": "10155142160034530613"
+        }
+      ],
       "live-sync-be": [
         {
           "file": "apps/live-sync-be/.env.example",
@@ -669,6 +563,182 @@
         {
           "file": "apps/live-sync-be/tsconfig.json",
           "hash": "6240538891403235665"
+        }
+      ],
+      "themes": [
+        {
+          "file": "libs/themes/README.md",
+          "hash": "17253880944004257029"
+        },
+        {
+          "file": "libs/themes/eslint.config.mjs",
+          "hash": "1228135543333780856",
+          "deps": [
+            [
+              "npm:jsonc-eslint-parser",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "libs/themes/package.json",
+          "hash": "2452203204579319425",
+          "deps": [
+            "npm:tslib",
+            "npm:tailwindcss"
+          ]
+        },
+        {
+          "file": "libs/themes/src/index.ts",
+          "hash": "18116315535084182383"
+        },
+        {
+          "file": "libs/themes/src/lib/themes.ts",
+          "hash": "8352724380804634289",
+          "deps": [
+            "npm:tailwindcss"
+          ]
+        },
+        {
+          "file": "libs/themes/tsconfig.json",
+          "hash": "1588395960606763721"
+        },
+        {
+          "file": "libs/themes/tsconfig.lib.json",
+          "hash": "10155142160034530613"
+        }
+      ],
+      "live-sync": [
+        {
+          "file": "apps/live-sync/.swcrc",
+          "hash": "2742566327615098680"
+        },
+        {
+          "file": "apps/live-sync/eslint.config.mjs",
+          "hash": "14646852152579753225",
+          "deps": [
+            "npm:@eslint/eslintrc",
+            "npm:@eslint/js",
+            "npm:@eslint/compat",
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "apps/live-sync/index.d.ts",
+          "hash": "6089061951863420824",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/live-sync/next.config.js",
+          "hash": "13298620121883591352",
+          "deps": [
+            "npm:@nx/next"
+          ]
+        },
+        {
+          "file": "apps/live-sync/package.json",
+          "hash": "4409618809318015559",
+          "deps": [
+            "npm:next",
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/live-sync/postcss.config.js",
+          "hash": "3070314207240479489"
+        },
+        {
+          "file": "apps/live-sync/public/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/live-sync/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/live-sync/src/app/api/hello/route.ts",
+          "hash": "10928412887030504778"
+        },
+        {
+          "file": "apps/live-sync/src/app/global.css",
+          "hash": "10916250898617451616"
+        },
+        {
+          "file": "apps/live-sync/src/app/layout.tsx",
+          "hash": "669607252572781689"
+        },
+        {
+          "file": "apps/live-sync/src/app/page.tsx",
+          "hash": "7609186312909881833",
+          "deps": [
+            "npm:react",
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/live-sync/tailwind.config.js",
+          "hash": "4134430132278540846",
+          "deps": [
+            "npm:@nx/react",
+            "themes"
+          ]
+        },
+        {
+          "file": "apps/live-sync/tsconfig.json",
+          "hash": "8513827321396073136"
+        }
+      ],
+      "frontend": [
+        {
+          "file": "frontend/.env",
+          "hash": "14226148609345098106"
+        },
+        {
+          "file": "frontend/README.md",
+          "hash": "17524295600495787358"
+        },
+        {
+          "file": "frontend/craco.config.js",
+          "hash": "13818922004649374940"
+        },
+        {
+          "file": "frontend/package.json",
+          "hash": "6746547671428809525"
+        },
+        {
+          "file": "frontend/postcss.config.js",
+          "hash": "1579725330904862112"
+        },
+        {
+          "file": "frontend/public/index.html",
+          "hash": "2690559813094882096"
+        },
+        {
+          "file": "frontend/src/App.css",
+          "hash": "13003966367854827278"
+        },
+        {
+          "file": "frontend/src/App.js",
+          "hash": "12520528318072366765"
+        },
+        {
+          "file": "frontend/src/index.css",
+          "hash": "14685566065480124193"
+        },
+        {
+          "file": "frontend/src/index.js",
+          "hash": "1692555474794136965"
+        },
+        {
+          "file": "frontend/tailwind.config.js",
+          "hash": "12636553981810276944"
+        },
+        {
+          "file": "frontend/yarn.lock",
+          "hash": "11035658098607280922"
         }
       ]
     }
