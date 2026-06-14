@@ -242,5 +242,127 @@
       ],
       "command": "npx nx watch --projects portfolio --includeDependentProjects -- npx nx build-deps portfolio"
     }
+  },
+  "5477686544321808067": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/live-sync",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/live-sync/.next",
+        "{workspaceRoot}/apps/live-sync/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/live-sync"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/live-sync"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/live-sync"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "yarn nx watch --projects live-sync --includeDependentProjects -- yarn nx build-deps live-sync"
+    }
+  },
+  "208535839134742132": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/portfolio",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/portfolio/.next",
+        "{workspaceRoot}/apps/portfolio/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/portfolio"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/portfolio"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/portfolio"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "yarn nx watch --projects portfolio --includeDependentProjects -- yarn nx build-deps portfolio"
+    }
   }
 }
